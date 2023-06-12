@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#abc{
+    margin: 20px 0 0 20px;
+}
+
+.prod {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+p{
+    padding: 0px 20px 20px;
+}
+
+.info{
+    margin-left: 50px;
+    width: 650px;
+}
+
+.info p, h1{
+
+    text-align: left;
+}
+
+.info h1{
+    color: black;
+}
+
+.prod{
+    justify-content: center;
+    align-items: center;
+}
+
+.prod img{
+    width: 300px;
+}
+h1{
+    text-align: center;
+    color: #f58634;
+    font-weight: 900;
+}
+
+h3{
+    font-weight: 500;
+}
+
+.tit2{
+    font-size: 23px;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}   
+
+.backimg{
+    padding: 20px;
+    background-color: #f58634;
+}
+
+
+footer img{
+    width: 280px;
+}
+
+footer {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f58634;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.image-container img {
+    margin: 0 100px;
+}
+
+
+
+
+#acp-wpp{
+    padding: 50px;
+}
+
+#acp-wpp h1{
+    padding-bottom:25px;
+}
+
+#acp-wpp img{
+    width: 580px;
+    padding: 20px;
+}
+#topp{
+    padding: 20px;
+}
+
+#topp h1{
+    margin: 20px 0;
+    font-size: 53px;
+}
+
+#topp h3{
+    margin: 10px 0;
+    color: black;
+    font-size: 24px;
+}
+
+h3{
+    color: rgb(58, 58, 58);
+}
+
+p{
+    color: rgb(26, 26, 26);
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .image-container {
+        flex-wrap: wrap;
+    }
+    .image-container img {
+        margin: 10px;
+        max-width: 100%;
+    }
+
+
+    #acp-wpp{
+        margin: 0;
+        padding: 0;
+    }
+
+    #acp-wpp img{
+        margin: 0;
+        width: 380px;
+    }
+
+    .prod{
+        margin-bottom: 80px;
+        padding: 0;
+    }
+
+    .prod img{
+        margin-bottom: 40px;
+      
+    }
+    
+
+    .info{
+        
+        margin: 0;
+    }
+
+    .backimg img{
+        width: 320px;
+    }
+}
